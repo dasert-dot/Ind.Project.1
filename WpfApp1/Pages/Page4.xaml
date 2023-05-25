@@ -1,0 +1,81 @@
+﻿<Page x:Class="WpfApp1.Pages.Page4"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp1.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="980"  d:DesignWidth="1620"
+      Title="Page4">
+
+    <Grid>
+        <Image 
+            Source="\Image\Page4.jpg"
+            Stretch="UniformToFill"
+            />
+        <Border
+            Margin="30 160 30 30"
+            Height="790"
+            CornerRadius="20"
+            Background="White">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <StackPanel 
+                    Grid.Column="0"
+                    Margin="0 0 0 0">
+                    <TextBlock 
+                    Text="Кто мы?"
+                    TextWrapping="Wrap"
+                FontFamily="Play"
+                FontSize="50" 
+                    FontWeight="Black"
+                    Width="250" 
+                    Margin="10 50">
+                    </TextBlock>
+                    <TextBlock
+                Margin="10 -10"
+                TextWrapping="Wrap"
+                FontFamily="Play"
+                FontSize="30" 
+                    Text="Компания LaseRem - официальный дистрибьютор ведущих производителей промышленного оборудования, которое котируется, как на внутренних рынках Японии, КНР, Малайзии, Индии, Кореи, так и экспортируется на Ближний Восток, в Европу и в США.
+Мы предлагаем Российским компаниям возможность использовать на своих производствах - качественное промышленное оборудование которое завоевало доверие и уважение во всем мире." Height="570" Width="470">
+                    </TextBlock>
+                </StackPanel>
+                <StackPanel 
+                    Grid.Column="1"
+                    Margin="0 0 0 0">
+                    <Image Source="\Image\task44.jpg"
+                           Margin="10 200">
+                        
+                    </Image>
+                </StackPanel>
+                <StackPanel 
+                    Grid.Column="2"
+                    Margin="0 0 0 0">
+                    <TextBlock 
+                    Text="Чем занимается наша компания?"
+                    TextWrapping="Wrap"
+                FontFamily="Play"
+                FontSize="50" 
+                    FontWeight="Black"
+                    Width="418" 
+                    Margin="10 25">
+                    </TextBlock>
+                    <TextBlock
+                Margin="10 -20"
+                TextWrapping="Wrap"
+                FontFamily="Play"
+                FontSize="30" 
+                    Text="Лазерная техника является основым инструментом на большинстве металлообрабатывающих предприятий, производящих чрезвычайно нужные товары. С 2023 года, мы занимаемся ремонтом лазерной техники. Наша компания сотрудничает с большей частью стран СНГ и не только." 
+                        Height="570" 
+                        Width="470">
+                    </TextBlock>
+                </StackPanel>
+            </Grid>
+        </Border>
+    </Grid>
+</Page>

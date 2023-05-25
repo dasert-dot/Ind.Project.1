@@ -1,0 +1,95 @@
+﻿<Page x:Class="WpfApp1.Pages.Page3"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp1.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="980"  d:DesignWidth="1620"
+      Title="Page3">
+    <Grid>
+        <Image 
+            Source="\Image\Page2.3.jpg"
+            Stretch="UniformToFill"
+            />
+        <Border
+            Margin="30 160 1045 30"
+            Width="500"
+            Height="790"
+            CornerRadius="20"
+            Background="White">
+            <StackPanel>
+                <TextBlock
+                    Text="Иванов Иван Иванович Мастер на дом"
+                    FontSize="30"
+                    Margin="0 50" 
+                    Height="100" 
+                    Width="400"
+                    TextAlignment="Center"
+                    TextWrapping="Wrap"
+                    FontFamily="Play">
+                </TextBlock>
+                <Image
+                Source="\Image\TaskPikch2.jpeg"
+                Height="400"
+                Width="400" 
+                Margin="0 -50">
+                </Image>
+                <TextBlock
+                    Text="8 999 999 11 11        Дмитрий г.Москва"
+                    FontSize="30"
+                    Margin="0 70" 
+                    Height="70" 
+                    Width="400"
+                    TextAlignment="Center"
+                    TextWrapping="Wrap"
+                    FontFamily="Play">
+                </TextBlock>
+            </StackPanel>
+        </Border>
+        <Border
+            Margin="1045 160 30 30"
+            Width="500"
+            Height="790"
+            CornerRadius="20"
+            Background="White">
+            <StackPanel>
+                <TextBlock
+                    Text="Сергеев Сергей Сергеевич "
+                    FontSize="30"
+                    Margin="0 50" 
+                    Height="100" 
+                    Width="400"
+                    TextAlignment="Center"
+                    TextWrapping="Wrap"
+                    FontFamily="Play">
+                </TextBlock>
+                <Image
+                Source="\Image\TaskPikch3 (2).png"
+                Height="400"
+                Width="400" 
+                Margin="0 -50">
+                </Image>
+                <TextBlock
+                    Text="8 999 999 66 66        Директор центрального рем отдела г.Москва"
+                    FontSize="30"
+                    Margin="0 70" 
+                    Height="105" 
+                    Width="400"
+                    TextAlignment="Center"
+                    TextWrapping="Wrap"
+                    FontFamily="Play">
+                </TextBlock>
+            </StackPanel>
+        </Border>
+        <Border 
+            Margin="790 940 790 10">
+            <Button
+                Background="Transparent"
+                BorderBrush="Transparent"
+                Click="Button_Click">
+                
+            </Button>
+        </Border>
+    </Grid>
+</Page>

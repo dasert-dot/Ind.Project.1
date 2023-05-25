@@ -1,0 +1,31 @@
+﻿<Page x:Class="WpfApp1.Pages.Page6"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp1.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="980"  d:DesignWidth="1620"
+      Title="Page6">
+    <Grid Background="Black">
+        <TextBlock
+            Text="Check DataBase for Gvozdev Sergey Mihailovich"
+            FontSize="30"
+            Foreground="White"
+            FontFamily="Play"
+            Margin="200 160 0 0">
+            
+        </TextBlock>
+        <StackPanel Margin="200 200 200 0">
+            <ListView x:Name="listinf"
+                      Height="600"
+                      Foreground="White"/>
+            <Button Content="back"
+                    Click="Button_Click" 
+                    Width="200"
+                    Background="Black"
+                    BorderBrush="White"
+                    />
+        </StackPanel>
+    </Grid>
+</Page>

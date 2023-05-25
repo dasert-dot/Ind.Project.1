@@ -1,0 +1,64 @@
+﻿<Page x:Class="WpfApp1.Pages.Page2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp1.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="980"  d:DesignWidth="1620"
+      Title="Page2">
+    <Grid>
+        <Image 
+            Source="\Image\Page2.jpg"
+            Stretch="UniformToFill"
+            />
+        <Border
+            Margin="30 160 30 30"
+            CornerRadius="15"
+            Background="White">
+            <StackPanel>
+                <TextBlock
+                Margin="30 0 1100 0"
+                Text="Услуги компании"
+                FontFamily="Play"
+                FontSize="50">
+                </TextBlock>
+                <TextBlock
+                    Margin="30 0 30 0" 
+                    Height="716" 
+                    Width="514"
+                    HorizontalAlignment="Left"
+                    TextWrapping="Wrap"
+                    FontFamily="Play"
+                    FontSize="20"
+                    LineStackingStrategy="BlockLineHeight"
+                    LineHeight="30"
+                    Text="Установка и запуск широкоформатного оборудования
+Инсталляция широкоформатного УФ принтера                             
+Инсталляция интерьерного принтера                              
+Инсталляция сольвентного широкоформатного принтера                                                                                        
+Инсталляция сувенирного УФ принтера                                
+Инсталляция лазерного оборудования                           
+Инсталляция фрезерно-гравировального оборудования                                                       
+Инсталляция планшетного режущего плоттера 
+Диагностика оборудования                                         
+Техническое обслуживание и ремонт оборудования
+Модернизация оборудования                            
+Восстановление оборудования                                     
+Настройка программного обеспечения оборудования           
+Консервация и расконсервация оборудования для транспортировки                                                                   
+Установка и сведение печатающих голов                                        
+Чистка печатающих голов                                                
+Написание цветовых профилей                                      
+Установка лазерного излучателя и юстировка оптики лазерного станка                                                              
+Установка высоковольтного блока питания         
+Обучение оператора оборудования">
+                </TextBlock>
+                <Image Margin="550 -750 0 0"
+                    Source="\Image\stanok22.jpg" Height="551" Width="842">
+
+                </Image>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Page>
